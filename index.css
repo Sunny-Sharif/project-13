@@ -36,11 +36,14 @@
 /* navegation bar start  */
 
 .nav-top {
+    width: 100%;
+    position: fixed;
+    top: 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 5px 100px;
-    background-color: rgba(206, 202, 202, .3);
+    padding: 5px;
+    background-color: rgba(206, 202, 202, 0.938);
 }
 
 .nav-logo-digital {
