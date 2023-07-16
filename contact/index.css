@@ -36,6 +36,7 @@
 /* navegation bar start  */
 
 .nav-top {
+    color: white;
     width: 100%;
     position: fixed;
     top: 0px;
@@ -43,7 +44,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 5px;
-    background-color: rgba(206, 202, 202, 0.938);
+    background-color: rgba(5, 5, 5, 0.493);
     z-index: 10;
 }
 
@@ -71,9 +72,18 @@
 .nav-menu-bar li a {
     text-decoration: none;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
-    color: black;
+    color: rgb(255, 255, 255);
+}
+
+.nav-menu-bar li:hover {
+    transform: scale(.9);
+}
+
+.nav-menu-bar li a:hover {
+    color: red;
+    border-bottom: 1px solid red;
 }
 
 #sarch {
